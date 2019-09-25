@@ -1,0 +1,113 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+    .tag {
+        margin: 8px 0 20px 15px ;
+        float: left;
+    } 
+    
+    .Bouy {
+        margin-left: 90px;
+        margin-right: 150px;
+    }
+    .shopaddress {
+        padding-right: 20px;
+    }
+    .Manufacturer {
+        margin-left: 350px;
+    }
+    
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    
+    .shopaddress {
+        padding-right: 60px;
+    }
+    .Manufacturer {
+        margin-left: 190px;
+    }
+    .samples li {
+        padding: 5px;
+    }
+    .col.span-1-of-4 {
+	    margin: 1% 0 1% 0;
+    }
+    .BigBouy { 
+        float: left;
+        width: 35%;
+    }
+    .SHOPaddress { 
+        float: left;
+        width: 65%;
+    }
+    
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px;}
+    section { padding: 30px 0px;}
+    
+    .row { padding: 0 4% 0 4%;}
+    .samples,.samples li { width: 100%; }
+    .Area {display: none;}
+    .area {display: block;}
+    .icon1,.icon2 { display: none;}
+    .green { 
+        color: #106913;
+        font-size: 18px;    
+        }
+    .blue { 
+        color: #2323a0;
+        font-size: 18px;
+    }
+    .BigBouy {
+        margin: 0 0 0 5%;
+        width: 100%;
+        text-align: center;
+    }
+    .SHOPaddress { width: 100%;}
+    .Manufacturer { 
+        width: 100%;
+        font-size: 18px;
+        margin: 0;
+        padding: 0 0 0 12%;
+    }
+    .copyrights {
+        font-size: 17px;
+    }
+ 
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 50px 0;} 
+    .copyrights {
+        padding-left: 10%;
+        font-size: 16px;
+    }
+    .icon1,.icon2 { 
+        display: block;
+    }
+    .location {
+        margin-top: 60px;
+    }
+    .tag { width: 80%;}
+    .slider { 
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .pieceprice { margin-left: 50px;}
+    .col.span-1-of-2 { width: 50%;}
+    
+    
+}
+
+
+
+
+
+
+

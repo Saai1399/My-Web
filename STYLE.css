@@ -1,0 +1,390 @@
+/*--------------------------*/
+/*       BASIC-SETUP        */
+/*--------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    color: #5c5555;
+}
+
+/*--------------------------*/
+/*  REUSABLE COMPONENTS     */
+/*--------------------------*/
+
+.row {
+    max-width: 1345px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 0;
+}
+
+/*--------------------------*/
+/*       HEADER       */
+/*--------------------------*/
+
+header {
+    background-color: rgba(255, 245, 0, 0.26);
+    height: 15.9099vh;
+    
+}
+
+.logo {
+    float: left;
+    width: 140px;
+    height: 100px;
+    margin-left: 80px;
+    border-radius: 49%;
+}
+
+.headline {
+    font-weight: 700i;
+    -webkit-transform: translate(-0.5%,290%);
+    transform: translate(-0.5%,290%);
+    color: #003f65;
+}
+
+/*   SOCIAL-LINKS   */
+
+.siteHeaderSocialLinks {
+    float: right;
+    -webkit-transform: translate(-50%,115%);
+    transform: translate(-50%,115%);
+}
+
+.SocialLinks {
+    list-style: none;
+    display: none;
+}
+
+.SocialLinks li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+/*--------------------------*/
+/*       HEADINGS       */
+/*--------------------------*/
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    border-bottom: 1px solid #80722a;
+    
+    word-spacing: 10px;
+    letter-spacing: -4px;
+    color: #325034;
+}
+
+h3 {
+    font-weight: 700;
+    text-align: center;
+    color: #724108;
+    font-size: 20px;
+    word-spacing: 9px;
+}
+
+/*--------------------------*/
+/*       LINKS       */
+/*--------------------------*/
+
+a {
+    border-bottom: 1px solid #723d0f;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid transparent;
+}                 
+
+/*--------------------------*/
+/*       SECTION-SAMPLES       */
+/*--------------------------*/
+
+/*------  PART-1  -------*/
+
+.section-samples,
+.section-samples2,
+.section-samples3 {
+    
+    background-color: rgba(244, 255, 0, 0.11);
+    margin-top: 20px;
+}
+
+.samples {
+    list-style: none;
+    width: 100%;
+}
+
+.samples li {
+    float: left;
+    display: block;
+    width: 50%;
+    padding: 50px 30px 40px 30px;
+}
+
+
+
+/*-------- IMG SPECIAL EFFECTS --------*/
+
+.slider {
+    overflow: hidden;
+    float: left;
+    width: 255px;
+    height: 200px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:hover {
+   -webkit-transform: scale(1.10);
+   transform: scale(1.10);
+}
+
+.slider figure div {
+    float: left;
+    width: 25%;
+}
+
+.slider figure img {
+    width: 100%;
+    float: left;
+}
+
+.slider figure {
+    position: relative;
+    width: 400%;
+}
+
+.slider figure:hover {
+    -webkit-animation: 6s saai infinite;
+    animation: 6s saai infinite;
+}
+
+@-webkit-keyframes saai {
+    0%{
+      left: 0%;  
+    }
+    
+    23%{
+        left: 0%;
+    }
+    28%{
+        left: -100%;
+    }
+    48%{
+        left: -100%;
+    }
+    53%{
+        left: -200%;
+    }
+    73%{
+        left: -200%;
+    }
+    78%{
+        left: -300%;
+    }
+    100%{
+        left: -300%;
+    }
+
+  
+}
+
+@keyframes saai {
+    0%{
+      left: 0%;  
+    }
+    
+    23%{
+        left: 0%;
+    }
+    28%{
+        left: -100%;
+    }
+    48%{
+        left: -100%;
+    }
+    53%{
+        left: -200%;
+    }
+    73%{
+        left: -200%;
+    }
+    78%{
+        left: -300%;
+    }
+    100%{
+        left: -300%;
+    }
+
+  
+}
+
+/*--------------------------*/
+
+.tag {
+    float: right;
+    padding-left: 3.8px;
+}
+
+.pieceprice {
+    margin: 20px 0 0px 0;
+    font-size: 13px;
+    color: #070546;
+}
+
+.numberone {
+    font-size: 37px;
+    color: #b55e1d;
+}
+
+.bargain {
+    text-align: center;
+    font-size: 16px;
+}
+
+.blessed {
+    background-color: rgba(237, 229, 229, 0.49);
+}
+
+.about {
+    padding-left:15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-full {
+    width: 91%;
+    margin-top: 25px;
+    padding: 10px 0;
+    background-color: #e3edab;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+*:focus {outline: none;}
+
+.numbertwo {
+    display: block;
+    margin-top: -1px;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+/*------  PART-2  -------*/
+
+
+/*.Side-part {
+    float: right;
+}*/
+
+.Area {
+    margin-bottom: 10px;
+}
+
+.area {
+    display: none;
+}
+
+.icon1,
+.icon2 {
+    float: left;
+}
+
+.icon1 {
+    padding: 10px;
+}
+.icon2 {
+    margin-top: 5px;
+}
+
+.fa-whatsapp {
+    color: #008600;
+}
+
+.fa-phone-alt {
+    color: #1045a8;
+}
+
+.green { 
+        color: #09580c;
+            
+}
+
+.blue { 
+        color: #090991;
+}
+
+.contactinfo {
+    list-style: none;
+}
+
+.contactinfo li {
+    margin-top: 20px;
+}
+
+
+/*--------------------------*/
+/*       SECTION-DETAILS       */
+/*--------------------------*/
+
+.section-details4 {
+    background-color: rgba(241, 255, 162, 0.56);
+    margin-top: 20px;
+}
+
+.shopname {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.BigBouy { float: left;}
+.Bouy {
+    margin: 24px 100px 0 230px;
+}
+
+.SHOPaddress {float: left;}
+.shopaddress {
+    list-style: none;
+    margin-top: 25px;
+}
+
+.shopaddress li {
+    padding: 5px;
+}
+
+.fas {
+    padding: 10px;
+}
+
+.Manufacturer {
+    font-size: 22px;
+    margin: 30px 0 30px 410px;
+}
+
+.copyrights {
+    font-size: 18px;
+    font-weight: 700;
+    float: right;
+    padding: 50px 20px 30px 0;
+}
